@@ -80,7 +80,7 @@ body {
     color: var(--color-title-1, #2e2f42);
 }
 .har{
-    margin-left: 16px;
+   gap: 24px;
 
 }
 button.gar {
