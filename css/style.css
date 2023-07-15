@@ -81,7 +81,12 @@ body {
 }
 .har{
     margin-left: 16px;
-    
+
+}
+button.gar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 .gar{
     border-radius: 4px;
