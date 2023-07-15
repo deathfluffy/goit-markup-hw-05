@@ -110,8 +110,11 @@ button.gar {
 .har{
     display: flex;
 }
-.tah{
-    gap: 24px;
+.tah {
+    margin-left: 80px;
+}
+.gat {
+    margin-right: 24px;
 }
 .gat{
     width: 264px;
@@ -133,7 +136,7 @@ input::placeholder {
 }
 .kay{
        
-   
+        margin-left: 95px;
         color: #FFFFFF;
         font-family: Roboto;
         font-size: 16px;
