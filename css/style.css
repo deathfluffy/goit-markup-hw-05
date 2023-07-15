@@ -938,15 +938,14 @@ h3 {
 .haq{
     margin-bottom: 24px;
 }
+
 .paw{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--bat-color)
 }
-input:checked + .rah {
-    background-color: #404bbf;
-}
+
 .qar{
   color: var(--custom-color)
 }
@@ -980,13 +979,14 @@ input:checked + .rah {
         margin-bottom: 16px;
        
 }
-input:checked + .rah {
-    border: none;
-}
 
 
-input:checked + .rah svg {
+
+input:checked + .paw > .rah {
     fill: #f4f4fd;
+    border: none;
+    background-color: #404bbf;
+
 }
 .rah{
     width: 16px;
@@ -1008,6 +1008,9 @@ input:checked + .rah svg {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.hak:focus{
     border-color: #4D5AE5;
 }
 .hal{
