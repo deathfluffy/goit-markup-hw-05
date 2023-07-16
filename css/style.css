@@ -1012,6 +1012,7 @@ input:checked + .paw > .rah {
 }
 .hak:focus{
     border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 .hal{
     margin-bottom: 16px;
