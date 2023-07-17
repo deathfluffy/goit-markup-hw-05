@@ -940,16 +940,10 @@ h3 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.label{
-    display: block;
-}
-textarea{
-    display: block;
-}
 .war:focus{
     fill: #4D5AE5;
 }
-.gam:focus-within .hao {
+.hao:focus{
     fill: #4D5AE5;
 }
 .hat{
