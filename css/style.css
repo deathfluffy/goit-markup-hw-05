@@ -1040,15 +1040,10 @@ h3 {
 
 
 
-input:checked + .svg-modal > .modal-span {
-    fill: #f4f4fd;
-    border: none;
-    background-color: #404bbf;
 
-}
-.container-svg-modal:focus .svg-modal-4 {
+
+.svg-modal:focus+.svg-modal-4 {
     fill: #4D5AE5;
-    
 }
 .modal-span{
         width: 16px;
