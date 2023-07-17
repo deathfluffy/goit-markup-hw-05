@@ -148,26 +148,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 
-.checkbox-input-modal {
-    display: none;
- 
-}
 
-.checkbox-input-modal:checked+.modal-span .svg-icon-modal-5 {
-    display: inline-block;
-    
-}
-
-.modal-span {
-    display: inline-block;
- 
-    margin-right: 8px;
-}
-
-.button-modal:hover .modal-span .svg-icon-modal-5 {
-    display: inline-block;
-    
-}
 .intup-footer{
     width: 264px;
     height: 40px;
@@ -1064,6 +1045,10 @@ input:checked + .svg-modal > .modal-span {
     border: none;
     background-color: #404bbf;
 
+}
+.container-svg-modal:focus .svg-modal-4 {
+    fill: #4D5AE5;
+    
 }
 .modal-span{
         width: 16px;
