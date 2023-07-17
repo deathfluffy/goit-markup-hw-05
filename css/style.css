@@ -1066,11 +1066,13 @@ h3 {
     
 }
 .svg-modal:focus + .svg-modal-4{
-    border-color: #4D5AE5;
+    
     fill: #4D5AE5;
     
 }
-
+.svg-modal:focus{
+    border-color: #4D5AE5;
+}
 .contaienr-modal-2{
     margin-bottom: 16px;
 
