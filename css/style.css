@@ -1042,9 +1042,7 @@ h3 {
 
 
 
-.svg-modal:focus+.svg-modal-4 {
-    fill: #4D5AE5;
-}
+
 .modal-span{
         width: 16px;
         height: 16px;
@@ -1067,8 +1065,9 @@ h3 {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.svg-modal:focus{
+.svg-modal:focus+.svg-modal-4{
     border-color: #4D5AE5;
+    fill: #4D5AE5;
     
 }
 .contaienr-modal-2{
