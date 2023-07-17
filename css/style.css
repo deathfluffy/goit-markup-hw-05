@@ -1072,7 +1072,18 @@ input#user-email:focus {
 
     }
     
+input#user-number:focus {
 
+
+        border-color: #4D5AE5;
+
+    }
+input#user-name:focus {
+
+
+    border-color: #4D5AE5;
+
+}
 .svg-modal:focus + .svg-modal-4 {
     fill: #4D5AE5;
 }
