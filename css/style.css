@@ -920,7 +920,7 @@ h3 {
 .war:focus{
     fill: #4D5AE5;
 }
-.hao:focus{
+.gam:focus-within .hao {
     fill: #4D5AE5;
 }
 .hat{
