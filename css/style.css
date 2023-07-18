@@ -1273,8 +1273,22 @@ input#user-name:focus {
 .container-button-footer {
     margin-left: auto;
 } 
- 
+ .button-6{
+    color: #ffffff;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.button-main:hover,
+.button-main:focus{
+    background-color: #404BBF;
+}
 
+
+       
+   
 .form-footer {
     display: flex;
     gap: 24px;
