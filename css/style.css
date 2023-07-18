@@ -1318,7 +1318,7 @@ l-4
 
 
 
-.input-check:checked+.data-label>.modal-span {
+.input-check:checked + .data-label > .modal-span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
