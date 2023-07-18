@@ -906,7 +906,7 @@ h3 {
 
     
 }
-.svg-modal-4{
+.input-icon{
     position: absolute;
     left: 16px;
     top: 50%;
@@ -915,7 +915,7 @@ h3 {
     
 }
 
-.svg-modal-4:focus{
+.input-icon:focus{
     fill: #4D5AE5;
 }
 .textarea-modal{
@@ -946,7 +946,7 @@ h3 {
             line-height: 1.17;
             letter-spacing: 0.04em;
 }
-.container-4{
+.data-form-textarea{
     margin-bottom: 16px;
 }
 
@@ -1022,7 +1022,7 @@ input#user-name:focus {
     border-color: #4D5AE5;
 
 }
-.svg-modal:focus + .svg-modal-4 {
+.svg-modal:focus + .input-icon {
     fill: #4D5AE5;
 }
 .contaienr-modal-2{
@@ -1056,7 +1056,7 @@ input#user-name:focus {
 
 
 } 
-.container-1{
+.data-form-container{
     margin-bottom: 8px;
 
 }
