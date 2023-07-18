@@ -91,6 +91,9 @@ fill: #FFF;
         border: none;
         border-radius: 4px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
 }
 .button-footer:hover,
@@ -1273,7 +1276,7 @@ input#user-name:focus {
 .container-button-footer {
     margin-left: auto;
 } 
- .button-6{
+ .text-footer{
     color: #ffffff;
     margin-bottom: 16px;
     font-size: 16px;
