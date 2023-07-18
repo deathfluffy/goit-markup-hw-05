@@ -940,7 +940,7 @@ h3 {
 .container-5{
         margin-bottom: 24px;
 }
-.label-4{
+.data-label{
         color:  var(--bat-color);
         font-size: 12px;
             line-height: 1.17;
@@ -1296,7 +1296,7 @@ input#user-name:focus {
     display: flex;
     gap: 24px;
 }
-
+l-4
 
 
 .intup-footer {
@@ -1320,7 +1320,7 @@ input#user-name:focus {
 
 
 
-.svg-modal:checked+.label-4>.modal-span {
+.svg-modal:checked+.data-label>.modal-span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
