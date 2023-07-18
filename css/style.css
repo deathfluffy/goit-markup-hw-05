@@ -918,9 +918,7 @@ h3 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.svg-icon-modal-5:focus{
-    fill: #4D5AE5;
-}
+
 .svg-modal-4:focus{
     fill: #4D5AE5;
 }
@@ -942,25 +940,24 @@ h3 {
 .textarea-modal:focus{
     border-color: #4D5AE5;
 }
-.contaienr-modal-3{
-    margin-bottom: 24px;
-}
 
+.container-modal-3{
+        margin-bottom: 24px;
+}
 .label-modal-1{
         color:  var(--bat-color);
         font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
+            line-height: 1.17;
+            letter-spacing: 0.04em;
+}
+.container-modal-2{
+    margin-bottom: 16px;
 }
 
-.link-document{
-  color: var(--custom-color)
-}
+
+
 .button-modal{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     display: block;
     min-width: 169px;
     height: 56px;
@@ -1010,17 +1007,8 @@ h3 {
 
 
 
-.modal-span{
-        width: 16px;
-        height: 16px;
-        border: 1px solid rgba(46, 47, 66, 0.4);
-        border-radius: 2px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        fill: transparent;
-}
+
+
 .svg-modal{
             width: 100%;
             height: 40px;
@@ -1369,7 +1357,32 @@ input#user-name:focus {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.footer-icon-send {
-    margin-left: 16px;
-    fill: #FFF;
+
+
+.svg-modal:checked+.label-modal-1>.modal-span {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
+    
+    border-color: #404BBF;
+}
+.label-modal-1 {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+.link-document {
+    color: #4D5AE5;
+}
+.modal-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
