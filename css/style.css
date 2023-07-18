@@ -898,6 +898,10 @@ h3 {
             justify-content: center;
         
 }
+.link-footer:hover,
+.link-footer:focus {
+    background-color: #31d0aa;
+}
 .modal{
     position: fixed;
     top: 0;
