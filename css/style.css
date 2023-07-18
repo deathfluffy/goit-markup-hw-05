@@ -1062,7 +1062,9 @@ input#user-name:focus {
     margin-bottom: 8px;
 
 }
-
+.data-form{
+    margin-bottom: 24px;
+}
 .container-modal{
     position: absolute;
     top: 50%;
