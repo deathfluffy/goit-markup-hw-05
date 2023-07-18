@@ -305,13 +305,7 @@ fill: currentColor;
 }
 
 
-.stu:hover {
-    color: #404bbf;
-}
 
-.stu:focus {
-    color: #404bbf;
-}
 
 span {
     text-decoration: none;
@@ -1280,7 +1274,7 @@ input#user-name:focus {
 .container-button-footer {
     margin-left: auto;
 } 
- .text-footer{
+ .text-under{
     color: #ffffff;
     margin-bottom: 16px;
     font-size: 16px;
