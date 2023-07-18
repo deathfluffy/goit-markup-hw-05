@@ -1034,7 +1034,7 @@ input#user-name:focus {
     visibility: hidden;
     pointer-events: none;
 }
-.container-svg-modal{
+.svg-form{
     position: relative;
 }
 .text-modal{
