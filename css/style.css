@@ -1343,3 +1343,8 @@ l-4
 .container-svg-modal{
     position: relative;
 }
+@media (max-width: 1158px){
+    .first-header{
+        font-size: 56px;
+    }
+}
